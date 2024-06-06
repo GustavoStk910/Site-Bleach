@@ -1,0 +1,166 @@
+html,body {
+    margin: 0;
+}
+
+.espaço {
+    height: 110px;
+}
+
+a:link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #2a99d1;
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(#000000, #000000, #ff0000, #000000, #000000);
+    color: #ffffff;
+    text-align: center;
+    height: 130px;
+    width: 100%;
+    position: fixed;
+}
+
+.opcao {
+    color: #ffffff;
+    padding: 3px 10px 3px 10px;
+    border-radius: 23px;
+    font-size: 20px;
+    font-family: 'animeace';
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+    float: right;
+}
+
+p1 {
+    font-family: 'bleach';
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 1px;
+}
+
+p2 {
+    font-family: 'animeace';
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+p3 {
+    font-family: 'animeace';
+    color: yellow;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 1px;
+    right: 50%;
+    text-align: center;
+}
+
+p4 {
+    font-family: 'animeace';
+    text-shadow: 2px 2px black;
+    color: white;
+    right: 20%;
+    top: 190px;
+    text-align: center;
+}
+
+.img1 {
+    width: 250px;
+}
+
+#imagemfundo {
+    background: url(fundobleach.png);
+    background-size: cover;
+    height: 100%;
+
+}
+
+.Historia {
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-top: 10%;
+    font-size: 70px;
+    line-height: 1;;
+    text-align: center;
+}
+
+.historia2 {
+    color: white;
+    padding-left: 36%;
+    text-shadow: 2px 2px black;
+    font-size: 25px;
+    padding-right: 40%;
+    text-align: center;
+    width: 400px;
+}
+
+.caixa1 {
+    background: linear-gradient(#2a99d1, #006fa6);
+    opacity: 15%;
+    border-radius: 23px;
+    position:absolute;
+    width: 430px;
+    height: 400px;
+    left: 520px;
+    top: 200px;
+}
+
+.ichigo {
+    height: 400px;
+    width: 100%;
+    padding-top: 30%;
+}
+
+.coluna {
+    float: left;
+    padding: 3% 5%;
+    position: relative;
+}
+
+.dois {
+    width: 40%;
+}
+
+.centralizado{
+text-align: center;
+text-shadow: 2px 2px black;
+font-size: 23px;
+color: white;
+font-family: 'animeace';
+}
+
+.justificado {
+text-align: justify;
+font-size: 14px;
+text-shadow: 2px 2px black;
+color: white;
+font-family: 'animeace';
+}
+
+.destaque1 {
+    background: linear-gradient(#150051, #c80000, #150051);
+}
+
+.destaque2 {
+    background: linear-gradient(#150051, #c80000, #150051);
+}
+
+section {
+    padding: 20px;
+    float: left;
+}
+
+@font-face {
+    font-family: 'bleach';
+    src: url(FontBleach.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'animeace';
+    src: url(animeace2_reg.ttf) format(truetype);
+}
